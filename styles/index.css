@@ -2,125 +2,157 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 /* shared style */
 
-.bg-secondary{
-    background-color: #FFF8F3;
+.bg-secondary {
+  background-color: #fff8f3;
 }
-.text-primary-color{
-    color: #FD6E0A;
+.text-primary-color {
+  color: #fd6e0a;
 }
-.dark-2{
-    color: #474747;
+.dark-2 {
+  color: #474747;
 }
-.dark-3{
-    color: #757575;
+.dark-3 {
+  color: #757575;
 }
-.btn-primary{
-    background-color: #FD6E0A;
-    padding: 15px 20px;
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-    border-radius: 5px;
-    border: none;
+.btn-primary {
+  background-color: #fd6e0a;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+  border: none;
 }
-.section-title{
-    font-size: 30px;
-    font-weight: bold;
-    color: #181818;
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #181818;
 }
-.section-description{
-    font-size: 18px;
-    color: #757575;
+.section-description {
+  font-size: 18px;
+  color: #757575;
+}
+.text-center {
+  text-align: center;
+  padding: 0 120px;
 }
 
 /* header */
 
-.header{
-    background-image: url('../images/developer.png'), url(../images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
+.header {
+  background-image:
+    url("../images/developer.png"), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position:
+    top left,
+    bottom right;
 }
 
 /* navbar style */
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 200px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
 }
 .nav-title {
-    font-weight: 800;
-    font-size: 45px;
+  font-weight: 800;
+  font-size: 45px;
 }
-nav ul{
-    display: flex;
-    align-items: center;
+nav ul {
+  display: flex;
+  align-items: center;
 }
-nav ul li{
-    list-style: none;
-    margin-right: 50px;
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
 }
-nav li a{
-    text-decoration: none;
+nav li a {
+  text-decoration: none;
 }
 
 /* banner style */
 
-.banner{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 30px 0 200px;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px 0 200px;
 }
-.banner-content{
-    width: 500px;
+.banner-content {
+  width: 500px;
 }
-.banner-greetings{
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 0;
+.banner-greetings {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 0;
 }
-.banner-title{
-    font-size: 60px;
-    font-weight: bold;
-    margin: 0;
+.banner-title {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0;
 }
-.banner-pic{
-    width: 400px;
+.banner-pic {
+  width: 400px;
 }
 
 /* main style */
 
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section {
+  margin-top: 100px;
 }
 
 /* about style */
 
-.about{
-    border-radius: 10px;
-    padding: 100px 120px;
-    text-align: center;
-    margin-top: 100px;
+.about {
+  border-radius: 10px;
+  padding: 100px 120px;
+  text-align: center;
 }
-.about-items{
-    display: flex;
-    justify-content: space-around;
+.about-items {
+  display: flex;
+  justify-content: space-around;
 }
-.item-title{
-    font-size: 20px;
-    color: #757575;
-    margin-bottom: 0;
+.item-title {
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 0;
 }
-.item-description{
-    font-size: 20px;
-    font-weight: bold;
-    color: #474747;
+.item-description {
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
+}
+
+/* what i do style */
+
+/* .skills{
+    padding: 0 120px;
+} */
+.skills-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+.skill-title {
+  font-size: 20px;
+  font-weight: 600px;
+  color: #181818;
+}
+.skill-description {
+  color: #757575;
 }
